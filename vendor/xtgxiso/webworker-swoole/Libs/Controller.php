@@ -12,13 +12,14 @@ class Controller{
     function __construct($request,$response) {
         global $config;
         $this->request = $request;
-	$this->response = $response;
-        if ( $config["redis"]["load"] ) {
-            $this->LoadRedis();
+        $this->response = $response;
+        return;
+            if ( $config["redis"]["load"] ) {
+                $this->LoadRedis();
+            }
+        if ( $config["db"]["load"] ){
+            $this->LoadDb();
         }
-	if ( $config["db"]["load"] ){
-	    $this->LoadDb();
-	}
     }
 
     private function LoadRedis(){
