@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ed2b10b48905291e72d97a4d74408daf",
+    "packages": [
+        {
+            "name": "xtgxiso/webworker-swoole",
+            "version": "0.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xtgxiso/WebWorker-swoole.git",
+                "reference": "253560f21a4f76fce4c474266da5dd96dd382a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/xtgxiso/WebWorker-swoole/253560f21a4f76fce4c474266da5dd96dd382a3a.zip",
+                "reference": "253560f21a4f76fce4c474266da5dd96dd382a3a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-swoole": ">=2.0.5",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebWorker\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xtgxiso",
+                    "email": "124960772@qq.com",
+                    "homepage": "http://www.xtgxiso.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An http server PHP framework for easily building fast, scalable network applications.",
+            "homepage": "https://github.com/xtgxiso/WebWorker-swoole",
+            "keywords": [
+                "asynchronous",
+                "http"
+            ],
+            "time": "2017-02-09T06:16:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
