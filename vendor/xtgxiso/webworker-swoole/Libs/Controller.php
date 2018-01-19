@@ -60,6 +60,12 @@ class Controller{
         $this->response->header("Content-Type", "text/html; charset=utf-8");
         $this->response->end($data);
     }
+
+    public function ServerResponse($header,$data){
+
+        $this->response->header("Content-Type", "text/html; charset=utf-8");
+        $this->response->end($data);
+    }
     
     public function __destruct() {
         global $config;

@@ -1,0 +1,12 @@
+[2018-01-13 18:04:37 *72.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: redis connect fail! in /home/coderun/speedswoole/trunk/vendor/xtgxiso/webworker-swoole/Libs/Mredis.php on line 22.
+[2018-01-13 18:04:37 $70.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-01-13 18:45:33 *97.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: require_once(): Failed opening required 'app/index.php' (include_path='.:') in /home/coderun/speedswoole/trunk/pretest.php on line 33.
+[2018-01-13 18:45:33 $95.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-01-13 18:46:37 *102.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: require(): Failed opening required '/home/coderun/speedswoole/trunk/protected/lib/speed.php' (include_path='.:') in /home/coderun/speedswoole/trunk/app/speeddemo/index.php on line 3.
+[2018-01-13 18:46:37 $100.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-01-13 19:02:30 *115.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'speedswoole' not found in /home/coderun/speedswoole/trunk/pretest.php:37
+Stack trace:
+#0 /home/coderun/speedswoole/trunk/vendor/xtgxiso/webworker-swoole/App.php(262): WebWorker\Libs\Controller->{closure}()
+#1 {main}
+  thrown in /home/coderun/speedswoole/trunk/pretest.php on line 37.
+[2018-01-13 19:02:30 $113.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
